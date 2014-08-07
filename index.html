@@ -32,8 +32,9 @@
 <div class="api-cont">
   <h1>PBricks [Live]</h1>
   <h3>Application: *****.srv1.dc1.toroserver.com</h3>
-  <h3>Old Api : http://208.94.39.83:8080/torocommerce/tcapi/pages/v1</h3>
-  <h3>New Api : http://208.94.39.83:18080/torocommerce/wapi/v1"</h3>
+  <h3>Old API Port: 18080/19090  NEW API Port: 8080</h3>
+  <h3>Commerce API : http://192.168.168.11:18080/torocommerce/wapi/v1</h3>
+  <h3>ESB API : http://192.168.168.11:19090/wapi/v1"</h3>
 
   <table>
     <tr>
@@ -44,15 +45,21 @@
     </tr>
     <tr>
       <td>NEW VM PBricks OLD API</td>
-      <td><a data-base-app="http://sandbox.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.168.11:8080/torocommerce/tcapi/pages/v1">Go to Sandbox</a></td>
-      <td><a data-base-app="http://pagebuilder.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.168.11:8080/torocommerce/tcapi/pages/v1">Go to PageBuilder</a></td>
-      <td><a data-base-app="http://groovebox.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.168.11:19090">Go to Groovebox</a></td>
+      <td><a data-base-app="http://sandbox.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.168.11:18080/torocommerce/tcapi/pages/v1">Go to Sandbox</a></td>
+      <td><a data-base-app="http://pagebuilder.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.168.11:18080/torocommerce/tcapi/pages/v1">Go to PageBuilder</a></td>
+      <td>ccc</td>
     </tr>
     <tr>
       <td>NEW VM PBricks NEW API</td>
-      <td><a data-base-app="http://sandbox-v2.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.168.11:18080/torocommerce/wapi/v1">Go to Sandbox</a></td>
-      <td><a data-base-app="http://pagebuilder-v2.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.168.11:18080/torocommerce/wapi/v1">Go to PageBuilder</a></td>
-      <td><a data-base-app="http://codebox.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.168.11:19080/commerce-api/wapi/v1">Go to Codebox</a></td>
+      <td><a data-base-app="http://sandbox-v2.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.168.11:8080/torocommerce/wapi/v1">Go to Sandbox</a></td>
+      <td><a data-base-app="http://pagebuilder-v2.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.168.11:8080/torocommerce/wapi/v1">Go to PageBuilder</a></td>
+      <td><a data-base-app="http://codebox.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.168.11:19090/wapi/v1">Go to Codebox</a></td>
+    </tr>
+    <tr>
+      <td>RAE API</td>
+      <td></td>
+      <td></td>
+      <td><a data-base-app="http://codebox.srv1.dc1.toroserver.com/#/api/" data-base-api="http://192.168.22.3:9090/commerce-api/wapi/v1">Go to Codebox</a></td>
     </tr>
   </table>  
   
@@ -91,9 +98,9 @@
     </tr>
     <tr>
       <td>PBricks New API</td>
-      <td><a data-base-app="http://dev.sandbox.toro.io/#/api/" data-base-api="http://208.94.39.83:18080/torocommerce/wapi/v1">Go to Sandbox</a></td>
-      <td><a data-base-app="http://dev.pagebuilder.toro.io/#/api/" data-base-api="http://208.94.39.83:18080/torocommerce/wapi/v1">Go to PageBuilder</a></td>
-      <td><a data-base-app="http://dev.groovebox.toro.io/#/api/" data-base-api="http://208.94.39.83:18080/torocommerce/wapi/v1">Go to Groovebox</a></td>
+      <td><a data-base-app="http://dev.sandbox.toro.io/#/api/" data-base-api="http://192.168.168.11:18080/torocommerce/wapi/v1">Go to Sandbox</a></td>
+      <td><a data-base-app="http://dev.pagebuilder.toro.io/#/api/" data-base-api="http://192.168.168.11:18080/torocommerce/wapi/v1">Go to PageBuilder</a></td>
+      <td><a data-base-app="http://dev.groovebox.toro.io/#/api/" data-base-api="http://192.168.168.11:19090/wapi/v1">Go to Groovebox</a></td>
     </tr>
     <tr>
       <td>Daren New API</td>
@@ -110,8 +117,8 @@
     <tr>
       <td>RAE New API</td>
       <td>zzz</td>
-      <td>xx</td>
-      <td><a data-base-app="http://dev.groovebox.toro.io/#/api/" data-base-api="http://192.168.22.3:8080/commerce-api/wapi/v1">Go to Groovebox</a></td>
+      <td><a data-base-app="http://dev.groovebox.toro.io/#/api/" data-base-api="http://192.168.22.3:8080/commerce-api/wapi/v1" data-groovy="redirect123.groovy">Go to Codebox</a></td>
+      <td><a data-base-app="http://dev.groovebox.toro.io/#/api/" data-base-api="http://192.168.22.3:9090/commerce-api/wapi/v1">Go to Codebox</a></td>
     </tr>
   </table>
 </div>
